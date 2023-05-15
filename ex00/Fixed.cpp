@@ -6,7 +6,7 @@
 /*   By: tedelin <tedelin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/04 09:51:44 by tedelin           #+#    #+#             */
-/*   Updated: 2023/05/15 10:41:28 by tedelin          ###   ########.fr       */
+/*   Updated: 2023/05/15 10:54:17 by tedelin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ Fixed::Fixed ( const Fixed& other) {
 }
 
 void	Fixed::setRawBits ( int const raw ) {
-	_value = raw;
+	this->_value = raw;
 	return ;
 }
 
